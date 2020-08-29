@@ -1,0 +1,3 @@
+	service cpucfgcustom /system/bin/sh /cpucfgcustom.sh
+	class core
+	oneshot
