@@ -1,3 +1,9 @@
+go to
+boot.img/ramdisk/init.rc 
+and add line
+
+	#Thermal drive enable by enki
 	service cpucfgcustom /system/bin/sh /cpucfgcustom.sh
 	class core
 	oneshot
+
